@@ -19,7 +19,7 @@
 <li class="menu"><a href="News.php">News</a></li>
 <li class="menu"><a href="ContactUs.php">Contact Us</a></li>
 <li class="menu"><a href="FAQpage.php">FAQ</a></li>
-<li class="menu"><a href="policy.php">Policy</a></li>
+<li class="menu"><a href="policy.php">Policies</a></li>
 
 </ul>
 <a href="user_dashboard.php">

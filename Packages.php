@@ -28,7 +28,7 @@
                 </div>
                 <div class="card" id="card2">
                     <div class="card-content">
-                    <img src="images/life_inssuran.jpg" alt="Card Image" class="card-image">
+                    <img src="./images/retirement.jpg" alt="Card Image" class="card-image">
                     <h3>Retirement Plans</h3>
                     <p>Supporting steady progress towards a lifetime of comfort, so you can fully enjoy the rewards of your hardwork.</p>
                     <a href="sub_packages.php?package_type=Retirement Plan&image=images/life_inssuran.jpg" class="learn-more">Learn More</a>

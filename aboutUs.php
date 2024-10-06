@@ -11,8 +11,9 @@
 </head>
 <body>
     <section id="about-us">
+    <h1>About Us</h1>
         <div class="container">
-            <h1>About Us</h1>
+            
             
             <div class="about-section">
                 <h2>Our Mission</h2>

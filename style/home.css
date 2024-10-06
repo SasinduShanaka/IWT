@@ -114,7 +114,7 @@ body {
     height: 200px;
     background-color: rgba(245, 248, 250, 0.862);
     border-radius: 10px;
-    box-shadow: 0px 5px 5px rgba(48, 48, 48, 0.231);
+   
     cursor: pointer;
 }
 .card:hover {
@@ -210,12 +210,13 @@ background-color: #006496;
         color: #FFFFFF;
         text-align: center;
         font-size: 16px;
+        margin-top: 40px;
         padding: 10;
         width: 145px;
         height: 35px;
         transition: all 0.5s;
         cursor: pointer;
-        margin: 5px;
+        /* margin: 5px; */
       }
       
       .button span {
@@ -245,10 +246,12 @@ background-color: #006496;
 
     /* Styles for the image */
     .about-us img {
-        width: 120%;
+       width: 120%;
         height: 405px;
         align-content: right;
         margin-top: 3px;
+        margin-right: -10px;
+        padding-left: 150px;
         object-fit: cover;
         border-radius: 0px; /* Optional styling */
     }
@@ -329,7 +332,7 @@ background-color: #006496;
     height: 600px;
     background-position: center;
     background-size: cover;
-    background-image: url(../images/consult.jpeg);
+    background-image: url(../images/about03.jpg);
     background-attachment: fixed;
 
     display: flex;   
@@ -342,17 +345,18 @@ background-color: #006496;
 
 .scroll-image h1 {
     color: #ffffffd1;
-   font-size: 60px;
+   font-size: 70px;
+   font-weight: 250px;
    align-items: center;
-   text-align: justify;
+   text-align: center;
    margin-bottom: -5px;
    line-height: 1.2;
    
 }
 
 .scroll-text {
-    color: #000000;
-   font-weight: 500;
+    color:  #03496c;
+   font-weight: 600;
     font-size: 20px;
   text-align: justify;
   max-width: 50%;

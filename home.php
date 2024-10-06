@@ -56,7 +56,7 @@
             </div>
             <div class="card">
                 <div class="card-content">
-                <img src="./images/retire.png" alt="Card Image" class="card-image">
+                <img src="./images/retirement.jpg" alt="Card Image" class="card-image">
                 <h3>Retirement Plans</h3>
                 <a href="#" class="learn-more">Learn More</a>
                 
@@ -97,10 +97,12 @@
             <h2 class="headings">Welcome to Lifeguard Assurance</h2>
             <p>At Lifeguard Assurance, innovation and creativity transcend boundaries. We are dedicated to improving lives by providing world-class, comprehensive life insurance solutions designed to protect and secure your future with unwavering confidence, trust, and personalized care.
 </p>
+           <a href="aboutUs.php">
             <button class="button" style="vertical-align:middle"><span>Read More </span></button>
+            </a>
         </div>
         <div class="about-us-image">
-            <img src="./images/about.jpg" alt="About Us Image">
+            <img src="./images/fam01.jpg" alt="About Us Image">
         </div>
         
     </section>
@@ -137,9 +139,7 @@
 
     <div class="scroll-image">
         <h1>We're Here to Guide <br> You Every Step of the Way</h1><br>
-        <div class="scroll-text">
-        <p>Our expert consultants are dedicated to crafting personalized insurance plans that meet your unique needs. Let us help you secure a brighter future with solutions tailored just for you.</p>
-        </div>
+        
        
     </div>
 

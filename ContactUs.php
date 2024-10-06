@@ -1,5 +1,8 @@
 <?php
 include('header.php');
+?>
+
+<?php
 // Include the database configuration file
 $servername = "localhost";
 $username = "root";
@@ -49,7 +52,10 @@ mysqli_close($connection);
 
   </head>
   <body>
+  <p>We are here at your service</p>
+
     <div class="container">
+   
       <div class="form">
         <div class="contact-info">
 

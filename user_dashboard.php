@@ -28,22 +28,22 @@ include("header.php");
          <li><a href="#">Policies</a></li>
        </ul>
 
-       <button>Logout</button>
+       <button class="logout">Logout</button>
   </div>
 <div class="container">
-  <div id="activated_plans">
+  <div  class="box"   id="activated_plans">
   <img src="./images/plans_icon.png" alt="">
       <h2>Activated Plans</h2> 
       <p id="plans"></p>
 
 
   </div>
-  <div id="make_claim">
+  <div class="box"   id="make_claim">
   <img src="./images/claims_icon.png" alt="">
      <h2>Make a Claim</h2> 
   </div>
 
-  <div id="pay">
+  <div class="box"  id="pay">
   <img src="./images/pay_icon.png" alt="">
      <h2>Pay premium</h2> 
 

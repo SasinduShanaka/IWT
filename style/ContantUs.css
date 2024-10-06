@@ -3,14 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
-h1{
-  font-family: "Poppins", sans-serif;
+.heading{
+
+  font-family: poppins;
+  font-size: 40px;
+  font-weight: 500;
+  color: #03496c;
 }
 
 body,
 input,
 textarea {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins";
 }
 .container {
   width: 100%;
@@ -25,10 +29,11 @@ textarea {
 }
 .form {
   width: 100%;
-  max-width: 820px;
+  max-width: 1000px;
+  height: 600px;
   background-color: #fafbfb;
   border-radius: 10px;
-  box-shadow: 0 0 20px 1px #03496c;
+  box-shadow: 0px 10px 5px rgba(48, 48, 48, 0.231);
   z-index: 1000;
   overflow: hidden;
   display: grid;

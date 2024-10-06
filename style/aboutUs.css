@@ -2,7 +2,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffffff;
+    background-color: #ebebeb98;  
     color: #333;
     padding-top: 150px;
 }
@@ -18,20 +18,28 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
-    background-color:#016fa5;
+    background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
    
 }
 
 h1 {
+
+  
+margin-bottom: 50px;
+    justify-content: center;
+  margin-top: -20px;
+    font-size: 2rem; 
+    font-weight: bold;
+    color: #03496c; 
     text-align: center;
-    font-size: 2.5em;
-    color: #ffffff;
-    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 500;
+    
 }
 
 .about-section {
@@ -39,7 +47,7 @@ h1 {
     border-radius: 10px;
     box-shadow: 0px 5px 5px rgba(48, 48, 48, 0.231);
     cursor: pointer;
-    background-color: #bebebd;
+    background-color: #03496c;
     text-align: center;
     padding: 30px;
     margin: 20px;
@@ -47,21 +55,21 @@ h1 {
 
 }
 .about-section:hover{
-
-    filter:brightness(130%) ;
+background-color: #006496;
+  
 }
 
 .about-section h2 {
     font-size: 1.8em;
-    color: #2980b9;
+    color: #ffffff;
     margin-bottom: 10px;
 }
 
 .about-section p {
     font-size: 1.1em;
     line-height: 1.6;
-    color: #555;
-    font-weight: bold;
+    color: #ffffff;
+    font-weight: 100px;
 }
 
 @media (max-width: 768px) {
