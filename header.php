@@ -1,4 +1,6 @@
-
+<?php 
+  session_start();
+?>
 <!DOCTYPE html>
 <head>
     <title>LIFEGUARD Assurance</title>
@@ -24,7 +26,7 @@
 </ul>
 <a href="user_dashboard.php">
 <img src="./images/user_icon.png" alt="user icon " id="user" onclick="dropdown()">
-<a href="user_dashboard.php">PROFILE</a>
+<h6> Hello <?php echo $_SESSION['username'] ?> </h6>
 </a>
 </div>
 </body>

@@ -1,5 +1,7 @@
 <?php
 include("header.php");
+
+session_start();
 ?>
 <!DOCTYPE html>
 <html>
@@ -18,14 +20,14 @@ include("header.php");
     </div>
        <div class="card">
         <div class="side_bar">
-           <img src="./images/user_icon.png" alt="icon"><br>
-            <p id="username">user</p><br>
+           <img src="dpImages\<?php echo $_SESSION['file'];?>" alt="icon"><br>
+            <p id="username"><?php echo $_SESSION['username'] ?></p><br>
               <button class="detail_change" onclick="directUserInformation()">Change user details</button><br>
 
        <ul class="list">
          <li><a href="#">Settings</a></li>
          <li><a href="#">Help</a></li>
-         <li><a href="#">Policies</a></li>
+         <li><a href="policy.php">Policies</a></li>
        </ul>
 
        <button class="logout">Logout</button>
@@ -38,9 +40,10 @@ include("header.php");
 
 
   </div>
+  <a href="make_claim.php">
   <div class="box"   id="make_claim">
   <img src="./images/claims_icon.png" alt="">
-     <h2>Make a Claim</h2> 
+     <h2>Make a Claim</h2> </a>
   </div>
 
   <div class="box"  id="pay">

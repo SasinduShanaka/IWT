@@ -1,6 +1,13 @@
-<?php
-include('header.php');
-?>
+<?php 
+    
+    session_start();
+    if (!isset($_SESSION["username"])) {
+        include("headerLogin.php");
+    } else {
+        include("header.php");
+    }
+    
+  ?>
 <!DOCTYPE html>
 <html>
     <head>

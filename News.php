@@ -1,5 +1,10 @@
 <?php
-include('header.php');
+      if (!isset($_SESSION["username"])) {
+          include("headerLogin.php");
+      } else {
+          include("header.php");
+      }
+
 // Include the database configuration file
 $servername = "localhost";
 $username = "root";

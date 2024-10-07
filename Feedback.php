@@ -1,6 +1,12 @@
 <?php
 
-include('header.php');
+session_start();
+if (!isset($_SESSION["username"])) {
+    include("headerLogin.php");
+} else {
+    include("header.php");
+}
+session_destroy();
 
 // Include the database configuration file
 $servername = "localhost";

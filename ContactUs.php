@@ -1,6 +1,14 @@
-<?php
-include('header.php');
-?>
+<?php 
+    
+    session_start();
+    if (!isset($_SESSION["username"])) {
+        include("headerLogin.php");
+    } else {
+        include("header.php");
+    }
+    session_destroy();
+    
+  ?>
 
 <?php
 // Include the database configuration file

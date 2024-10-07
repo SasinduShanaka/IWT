@@ -43,7 +43,7 @@
         <label for="Email">Email:</label><br>
         <input type="Email" id="email" name="email" value="<?php echo $_SESSION['email'];?>"><img src="./images/edit_icon.png" alt=""><br>
         <label for="nic">NIC number:</label><br>
-        <input type="text" id="nic" name="nic"  value="<?php echo $_SESSION['nic'];?>"><br>
+        <input type="text" id="nic" name="nic"  value="<?php echo $_SESSION['nic'];?>" readonly > <br>
         <label for="address">Address:</label><br>
         <input type="text" id="address" name="address" value="<?php echo $_SESSION['address'];?>"><img src="./images/edit_icon.png" alt=""><br>
         <label for="phone">Contact number:</label><br>
